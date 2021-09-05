@@ -4,10 +4,12 @@
             var mm = document.getElementById("mm").value; //month
             
             var yy = document.getElementById("yy").value; //year
-            
+
+              var female = document.getElementById("female").checked; // female
+              
             var male = document.getElementById("male").checked; //male
             
-            var female = document.getElementById("female").checked; // female
+          
             
             var days = [ 
                                 "Sunday",
