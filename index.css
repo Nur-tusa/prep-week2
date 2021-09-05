@@ -1,0 +1,86 @@
+    body {
+        background-image: url("image/akan1.jpg");
+        background-size:cover;
+        height: 100%;
+        background-position: center;
+    }
+    
+    
+    .row {
+        margin: 0;
+        border-radius: 10px;
+        margin: 30px;
+        
+        background-color: rgb(250, 241, 241);
+        opacity: 0.8;
+
+        }
+    
+
+    .content {
+        padding-right: 10%;
+        padding-left: 10%;
+        text-align: center;
+    } 
+    .image{
+        top: 10px; left: 80px;
+    }
+    .controler {
+        padding-left: 0;
+    }
+    .form-group{
+        align-items: center;
+    }
+    .calendar {
+
+    align-items: center;   
+    padding-top: 5%;
+    }
+    .form-tusa {
+        padding-left: 36%;
+    }
+    .form-tusa .label {
+        font-size: 16px;
+    }
+    
+    /* button */
+    
+    .button {
+        
+        padding-left: 33%;
+    }
+    
+    .container{
+        height: 100%;
+        padding: 0;
+    }
+    .col-md-5 {
+        padding: 0;
+    }
+    #error {
+        font-weight: bold;
+    }
+    input[type=number] {
+        color: black;
+    }
+    
+    /* footer*/
+
+
+    .flex-container{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    footer{
+        background-color: #777777;
+        padding: 25px;
+    }
+
+
+    small{
+        margin-left: 450px;
+    }
+
+
+    
