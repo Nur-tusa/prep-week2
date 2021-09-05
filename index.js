@@ -43,45 +43,46 @@ function AKAN_NAME() {
 
     var dayOfTheWeek = birthDate.getDay();
     //////////////////if enterd in valid date 
+    
     if (dd <= 0 || dd > 31) {
-        document.getElementById("error").innerText = "Please enter a valid date!"
+        alert("Please enter a valid date!");
 
     } else if ((mm === "September" || mm === "April" || mm === "June" || mm === "November") && (dd <= 0 || dd > 30)) {
-        document.getElementById("error").innerText = "Please enter a valid date!"
+        alert("Please enter a valid date!");
         /////////if left black sector of month 
 
     } else if (mm === "------") {
-        document.getElementById("error").innerText = "Please select a month!"
+        alert("Please enter a valid date!");
 
     } else if (yy <= 0 ) {
-        document.getElementById("error").innerText = "Please enter a valid year!"
+        alert("Please enter a valid date!");
 
         ////////////leap year
 
     } else if ((mm === "February") && (dd <= 0 || dd > 29) && (0 == yy % 4)) {
-        document.getElementById("error").innerText = "Please enter a valid date!"
+        alert("Please enter a valid date!");
 
         //////////not leap year 
     } else if ((mm === "February") && (dd <= 0 || dd > 28) && (0 != yy % 4)) {
-        document.getElementById("error").innerText = "Please enter a valid date!"
+        alert("Please enter a valid date!");
 
 
         ////////////// respond for female
     } else if (female === true) {
-        document.getElementById("main").innerHTML = "You were born on a " + days[dayOfTheWeek] + ".\n" + "Your Akan name is " + femaleNames[dayOfTheWeek] + "!" //shows result by replacing the HTML content in the id=result
+        alert("You were born on a " + days[dayOfTheWeek] + ".\n" + "Your Akan name is " + femaleNames[dayOfTheWeek] + "!"); //shows result by replacing the HTML content in the id=result
         document.getElementById("main").style.color = "green"
         document.getElementById("main").style.fontSize = "30px"
 
         /////////////repond for male
 
     } else if (male === true) {
-        document.getElementById("main").innerHTML = "You were born on a " + days[dayOfTheWeek] + ".\n" + "Your Akan name is " + maleNames[dayOfTheWeek] + "!" //shows result by replacing the  HTML content in the id=result
-        document.getElementById("main").style.color = "green"
-        document.getElementById("main").style.fontSize = "30px"
+        alert("You were born on a " + days[dayOfTheWeek] + ".\n" + "Your Akan name is " + maleNames[dayOfTheWeek] + "!"); //shows result by replacing the  HTML content in the id=result
+       
 
         ////////////////if not selected any button
     } else if ((female === false) && (male === false)) {
-        document.getElementById("error").innerText = "Please select gender!"
+        alert("Please select gender!");
 
     }
+
 }
