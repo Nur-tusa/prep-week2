@@ -39,7 +39,7 @@ function AKAN_NAME() {
 
     /////MY FORMULA
 
-    var birthDate = new Date(mm + '/' + dd + '/' + yy);
+    var birthDate = new Date(mm + '/' + dd + '/' + yy);   ////////  putting birthday as a new date
 
     var dayOfTheWeek = birthDate.getDay();
     //////////////////if enterd in valid date 
@@ -70,9 +70,7 @@ function AKAN_NAME() {
         ////////////// respond for female
     } else if (female === true) {
         alert("You were born on a " + days[dayOfTheWeek] + ".\n" + "Your Akan name is " + femaleNames[dayOfTheWeek] + "!"); //shows result by replacing the HTML content in the id=result
-        document.getElementById("main").style.color = "green"
-        document.getElementById("main").style.fontSize = "30px"
-
+       
         /////////////repond for male
 
     } else if (male === true) {
