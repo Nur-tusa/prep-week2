@@ -64,7 +64,7 @@ function AKAN_NAME() {
 
         //////////not leap year 
     } else if ((mth === "February") && (dy <= 0 || dy > 28) && (0 != yr % 4)) {
-        alert("Please enter a valid date!");
+        alert("Please enter a valid date .thank you!");
 
 
         ////////////// respond for female
