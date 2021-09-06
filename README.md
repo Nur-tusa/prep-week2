@@ -1,4 +1,5 @@
 # week 2 project
+ moringa school
 ## APPLICATION NAME.
  AKAN NAMES of GHANA PEOPLE
 
