@@ -45,22 +45,22 @@ function AKAN_NAME() {
     //////////////////if enterd in valid date 
     
     if (dy <= 0 || dy > 31) {
-        alert("Please enter a valid date!");
+        alert("Please enter a valid date!.thank you");
 
     } else if ((mth === "September" || mth === "April" || mth === "June" || mth === "November") && (dy <= 0 || dy > 30)) {
-        alert("Please enter a valid date!");
+        alert("Please enter a valid date!.thank you");
         /////////if left black sector of month 
 
     } else if (mth === "------") {
-        alert("Please enter a valid date!");
+        alert("Please enter a valid date!.thank you");
 
     } else if (yr <= 0 ) {
-        alert("Please enter a valid date!");
+        alert("Please enter a valid date!.thank you");
 
         ////////////leap year
 
     } else if ((mth === "February") && (dy <= 0 || dy > 29) && (0 == yr % 4)) {
-        alert("Please enter a valid date!");
+        alert("Please enter a valid date!.thank you");
 
         //////////not leap year 
     } else if ((mth === "February") && (dy <= 0 || dy > 28) && (0 != yr % 4)) {
@@ -79,7 +79,7 @@ function AKAN_NAME() {
 
         ////////////////if not selected any button
     } else if ((female === false) && (male === false)) {
-        alert("Please select gender!");
+        alert("Please select gender!.thank you");
 
     }
 
