@@ -1,4 +1,4 @@
-# week 2 project
+# week 2 project  // akan name generator !!!
  moringa school
 ## APPLICATION NAME.
  AKAN NAMES of GHANA PEOPLE
