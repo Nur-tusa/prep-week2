@@ -59,7 +59,7 @@
     .col-md-5 {
         padding: 0;
     }
-    #error {
+    #problem {
         font-weight: bold;
     }
     input[type=number] {
