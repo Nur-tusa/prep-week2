@@ -9,7 +9,12 @@ function AKAN_NAME() {
 
     var male = document.getElementById("male").checked; //male
 
+    var birthD = new Date(mth +  " " + yr + " " + dy);   ////////  putting birthday as a new date
+              /////my formula   
+     var  dayWeek = ( (  ((5*yr/4) ) + ((26*(mth+1)/10)) + dy )%7);
 
+
+    var dayWeek = birthD.getDay();
 
     var days = [
         "Sunday",
@@ -37,12 +42,8 @@ function AKAN_NAME() {
         "Afua",
         "Ama"];
 
-    /////MY FORMULA
 
-    var birthD = new Date(mth +  " " + dy + " " + yr);   ////////  putting birthday as a new date
-
-
-    var dayWeek = birthD.getDay();
+  
     //////////////////if enterd in valid date 
     
     if (dy <= 0 || dy > 31) {
@@ -52,8 +53,9 @@ function AKAN_NAME() {
         alert("Please enter a valid date!.thank you");
         /////////if left black sector of month 
 
-    } else if (mth === "------") {
-        alert("Please enter a valid date!.thank you");
+    } else if(mth =="/" && yr =="/" && dy =="/") {
+      alert("Please Enter your date");
+    
 
     } else if (yr <= 0 ) {
         alert("Please enter a valid date!.thank you");
