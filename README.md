@@ -11,7 +11,6 @@ the day of the week they were born and the order in which they were born.
 
  <img src="image/1.png">
   <img src="image/2.png">
- <img src="image/3.png">
 
  
 
