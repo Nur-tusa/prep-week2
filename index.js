@@ -21,7 +21,7 @@ function AKAN_NAME() {
         "Saturday"];
 
 
-    var maleNames = ["Kwasi",
+    var maleakan = ["Kwasi",
         "Kwadwo",
         "Kwabena",
         "Kwaku",           ///////////////////male akan name
@@ -29,7 +29,7 @@ function AKAN_NAME() {
         "Kofi",
         "Kwame"];
 
-    var femaleNames = ["Akosua",
+    var femaleakan = ["Akosua",
         "Adwoa",
         "Abenaa",
         "Akua",           //////////////////female akan names
@@ -39,7 +39,8 @@ function AKAN_NAME() {
 
     /////MY FORMULA
 
-    var birthD = new Date(mth + '/' + dy + '/' + yr);   ////////  putting birthday as a new date
+    var birthD = new Date(mth +  " " + dy + " " + yr);   ////////  putting birthday as a new date
+
 
     var dayWeek = birthD.getDay();
     //////////////////if enterd in valid date 
@@ -69,12 +70,12 @@ function AKAN_NAME() {
 
         ////////////// respond for female
     } else if (female === true) {
-        alert("You were born on a " + days[dayWeek] + ".\n" + "Your Akan name is " + femaleNames[dayWeek] + "!"); //shows result by replacing the HTML content in the id=result
+        alert("You were born on a " + days[dayWeek] + ".\n" + "akan name is " + femaleakan[dayWeek] + "!"); //shows result by replacing the HTML content in the id=result
        
         /////////////repond for male
 
     } else if (male === true) {
-        alert("You were born on a " + days[dayWeek] + ".\n" + "Your Akan name is " + maleNames[dayWeek] + "!"); //shows result by replacing the  HTML content in the id=result
+        alert("You were born on a " + days[dayWeek] + ".\n" + "Your Akan name is " + maleakan[dayWeek] + "!"); //shows result by replacing the  HTML content in the id=result
        
 
         ////////////////if not selected any button
