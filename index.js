@@ -70,12 +70,12 @@ function AKAN_NAME() {
 
         ////////////// respond for female
     } else if (female === true) {
-        alert("You were born on a " + days[dayWeek] + ".\n" + "akan name is " + femaleakan[dayWeek] + "!"); //shows result by replacing the HTML content in the id=result
+        alert("You were born on a " + days[dayWeek] + ".\n" + "akan name is " + femaleakan[dayWeek] + "!"); 
        
         /////////////repond for male
 
     } else if (male === true) {
-        alert("You were born on a " + days[dayWeek] + ".\n" + "Your Akan name is " + maleakan[dayWeek] + "!"); //shows result by replacing the  HTML content in the id=result
+        alert("You were born on a " + days[dayWeek] + ".\n" + "Akan name is " + maleakan[dayWeek] + "!"); 
        
 
         ////////////////if not selected any button
