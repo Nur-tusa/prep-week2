@@ -52,7 +52,7 @@ This is a project that shows portfolio landing page and biography
 ## support team for more information .
 *NAME - nur tusa*.
 *EMAIL - nur.tusa@student.moringaschool.com*.
-*CONTACT - 0722222222*. 
+*CONTACT - +254115314390*. 
 *ADDRESS - NAIROBI KENYA *.
 
 
